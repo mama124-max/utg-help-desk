@@ -1,1 +1,49 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333333;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
 
+/* Header Styling */
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Container / Main Layout */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraphs & Text */
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+button, .btn {
+  display: inline-block;
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+button:hover, .btn:hover {
+  background-color: #2980b9;
+}
